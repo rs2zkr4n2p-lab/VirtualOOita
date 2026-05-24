@@ -37,6 +37,8 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action [AI Okami]"
+        # 0. 念のため、環境を強制的にクリーンにする（最強の掃除！）
+        git reset --hard HEAD        
         
         # 1. まずは最新状態をpullして同期（ここを最初に持ってくる！）
         git pull --rebase origin main
