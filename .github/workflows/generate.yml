@@ -38,10 +38,13 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action [AI Okami]"
         
-        # 変更（docs内のmd、data/spots.json）があればステージング
+	# 1. 念のため最新をpullしてリベース（くっつける）
+        git pull --rebase origin main
+
+        # 2. 変更（docs内のmd、data/spots.json）があればステージング
         git add docs/ data/spots.json
         
-        # 変更がある場合のみコミットしてプッシュ
+        # 3. 変更がある場合のみコミットしてプッシュ
         if ! git diff --cached --quiet; then
           git commit -m "chore: AI女将が新しい観光スポットを墨書したよ ♨"
           git push
