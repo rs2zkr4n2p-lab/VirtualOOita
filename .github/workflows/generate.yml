@@ -25,15 +25,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install google-genai
 
-    # 4. AI女将スクリプトの実行（環境変数にAPIキーを注入）
-    - name: Run generate script
+    # 4. 「同期→生成→コミット→プッシュ」を一つのステップに統合！
+    - name: Generate and Commit
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      run: |
-        python generate_spot.py
-
-# 5. 生成されたMarkdownと更新されたjsonを自動コミット＆プッシュ！
-    - name: Commit and Push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action [AI Okami]"
