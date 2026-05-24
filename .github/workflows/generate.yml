@@ -1,0 +1,50 @@
+name: ♨ AI女将のMarkdown自動生成
+
+on:
+  # GitHubの画面から手動でボタンをポチッと押して起動できるようにする設定
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. コードをチェックアウト
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # 2. Python環境のセットアップ（軽量な3.11を選択）
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    # 3. 2026年最新の最小限ライブラリだけを爆速インストール
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install google-genai
+
+    # 4. AI女将スクリプトの実行（環境変数にAPIキーを注入）
+    - name: Run generate script
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      run: |
+        python generate_spot.py
+
+    # 5. 生成されたMarkdownと更新されたjsonを自動コミット＆プッシュ！
+    - name: Commit and Push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action [AI Okami]"
+        
+        # 変更（docs内のmd、data/spots.json）があればステージング
+        git add docs/ data/spots.json
+        
+        # 変更がある場合のみコミットしてプッシュ
+        if ! git diff --cached --quiet; then
+          git commit -m "chore: AI女将が新しい観光スポットを墨書したよ ♨"
+          git push
+        else
+          print "変更はねえよ（All completed!）"
+        fi

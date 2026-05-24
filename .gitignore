@@ -1,0 +1,17 @@
+# macOSのシステムが勝手に作るゴミファイル
+.DS_Store
+
+# Pythonの仮想環境（これを入れると大惨事になるけんね！）
+.venv/
+venv/
+ENV/
+
+# Pythonが実行時に自動生成するキャッシュ群
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ローカルでのテスト時にできたMarkdown（Actions側で生成するから不要）
+docs/beppu_jigoku_001.md
+

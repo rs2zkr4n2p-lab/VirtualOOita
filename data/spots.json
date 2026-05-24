@@ -1,0 +1,44 @@
+[
+  {
+    "id": "beppu-jigoku-001",
+    "name": "血の池地獄",
+    "category": "温泉",
+    "tags": [
+      "別府",
+      "地獄巡り",
+      "名勝"
+    ],
+    "status": "completed",
+    "last_updated": "2026-05-24T15:26:46.250108",
+    "source_url": "https://www.beppu-jigoku.com/chinoike/index.html",
+    "description_summary": "真っ赤な湯が特徴の日本最古の天然地獄。"
+  },
+  {
+    "id": "oita-kiritan-001",
+    "name": "キリシタン殉教記念公園",
+    "category": "歴史・文化",
+    "tags": [
+      "大分市",
+      "キリシタン",
+      "歴史"
+    ],
+    "status": "pending",
+    "last_updated": null,
+    "source_url": "https://www.city.oita.oita.jp/...",
+    "description_summary": "豊後崩れの歴史を伝える、祈りの場所。"
+  },
+  {
+    "id": "oita-gourmet-001",
+    "name": "中津からあげ",
+    "category": "グルメ",
+    "tags": [
+      "中津",
+      "B級グルメ",
+      "肉料理"
+    ],
+    "status": "pending",
+    "last_updated": null,
+    "source_url": null,
+    "description_summary": "大分が誇る、ニンニク醤油の効いた伝説のからあげ。"
+  }
+]
