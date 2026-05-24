@@ -36,8 +36,8 @@
       "B級グルメ",
       "肉料理"
     ],
-    "status": "pending",
-    "last_updated": null,
+    "status": "completed",
+    "last_updated": "2026-05-24T09:41:46.163067",
     "source_url": null,
     "description_summary": "大分が誇る、ニンニク醤油の効いた伝説のからあげ。"
   },
@@ -45,7 +45,11 @@
     "id": "beppu-jigoku-002",
     "name": "海地獄",
     "category": "温泉",
-    "tags": ["別府", "地獄巡り", "名勝"],
+    "tags": [
+      "別府",
+      "地獄巡り",
+      "名勝"
+    ],
     "status": "pending",
     "last_updated": null,
     "source_url": "https://www.beppu-jigoku.com/umi/index.html",
@@ -55,7 +59,11 @@
     "id": "oita-nature-001",
     "name": "鶴見岳",
     "category": "自然",
-    "tags": ["別府", "登山", "絶景"],
+    "tags": [
+      "別府",
+      "登山",
+      "絶景"
+    ],
     "status": "pending",
     "last_updated": null,
     "source_url": "https://www.beppu-ropeway.co.jp/",
@@ -65,7 +73,11 @@
     "id": "oita-gourmet-002",
     "name": "大分とり天",
     "category": "グルメ",
-    "tags": ["大分市", "B級グルメ", "肉料理"],
+    "tags": [
+      "大分市",
+      "B級グルメ",
+      "肉料理"
+    ],
     "status": "pending",
     "last_updated": null,
     "source_url": "https://www.oishiimono.jp/toriten",
