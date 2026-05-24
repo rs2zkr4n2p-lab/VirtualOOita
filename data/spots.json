@@ -82,5 +82,55 @@
     "last_updated": null,
     "source_url": "https://www.oishiimono.jp/toriten",
     "description_summary": "サクサクの衣とジューシーな鶏肉。大分のソウルフード。"
+  },
+  {
+    "id": "beppu-jigoku-003",
+    "name": "かまど地獄",
+    "category": "温泉",
+    "tags": ["別府", "地獄巡り", "名勝"],
+    "status": "pending",
+    "last_updated": null,
+    "source_url": "https://kamadojigoku.com/",
+    "description_summary": "様々な噴気や泥、色とりどりの池が楽しめる、地獄巡りのエンタメスポット。"
+  },
+  {
+    "id": "yufuin-kinrin-001",
+    "name": "金鱗湖",
+    "category": "自然",
+    "tags": ["由布市", "湯布院", "絶景"],
+    "status": "pending",
+    "last_updated": null,
+    "source_url": "https://www.visit-oita.jp/spots/detail/4279",
+    "description_summary": "由布院のシンボル。湖底から温泉と清水が湧き出ており、朝霧が幻想的な光景を生む。"
+  },
+  {
+    "id": "oita-history-002",
+    "name": "臼杵石仏",
+    "category": "歴史・文化",
+    "tags": ["臼杵市", "国宝", "歴史"],
+    "status": "pending",
+    "last_updated": null,
+    "source_url": "https://sekibutsu.com/",
+    "description_summary": "平安時代から鎌倉時代にかけて彫られたと言われる、日本を代表する石仏群。"
+  },
+  {
+    "id": "oita-aqua-001",
+    "name": "大分マリーンパレス水族館 うみたまご",
+    "category": "レジャー",
+    "tags": ["大分市", "水族館", "家族旅行"],
+    "status": "pending",
+    "last_updated": null,
+    "source_url": "https://www.umitamago.jp/",
+    "description_summary": "動物たちと距離が近いパフォーマンスが魅力。別府湾に面した大人気の水族館。"
+  },
+  {
+    "id": "beppu-sand-001",
+    "name": "別府海浜砂湯",
+    "category": "温泉",
+    "tags": ["別府", "砂蒸し風呂", "癒やし"],
+    "status": "pending",
+    "last_updated": null,
+    "source_url": "https://www.city.beppu.oita.jp/seikatu/gaikokujin/kankou/sandbath.html",
+    "description_summary": "海を眺めながら砂に埋もれて温まる、別府ならではの体験型温泉。"
   }
 ]
