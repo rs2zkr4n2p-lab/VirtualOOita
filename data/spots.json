@@ -50,8 +50,8 @@
       "地獄巡り",
       "名勝"
     ],
-    "status": "pending",
-    "last_updated": null,
+    "status": "completed",
+    "last_updated": "2026-05-24T09:47:48.924152",
     "source_url": "https://www.beppu-jigoku.com/umi/index.html",
     "description_summary": "コバルトブルーの美しい湯が魅力の、別府最大級の地獄。"
   },
@@ -87,7 +87,11 @@
     "id": "beppu-jigoku-003",
     "name": "かまど地獄",
     "category": "温泉",
-    "tags": ["別府", "地獄巡り", "名勝"],
+    "tags": [
+      "別府",
+      "地獄巡り",
+      "名勝"
+    ],
     "status": "pending",
     "last_updated": null,
     "source_url": "https://kamadojigoku.com/",
@@ -97,7 +101,11 @@
     "id": "yufuin-kinrin-001",
     "name": "金鱗湖",
     "category": "自然",
-    "tags": ["由布市", "湯布院", "絶景"],
+    "tags": [
+      "由布市",
+      "湯布院",
+      "絶景"
+    ],
     "status": "pending",
     "last_updated": null,
     "source_url": "https://www.visit-oita.jp/spots/detail/4279",
@@ -107,7 +115,11 @@
     "id": "oita-history-002",
     "name": "臼杵石仏",
     "category": "歴史・文化",
-    "tags": ["臼杵市", "国宝", "歴史"],
+    "tags": [
+      "臼杵市",
+      "国宝",
+      "歴史"
+    ],
     "status": "pending",
     "last_updated": null,
     "source_url": "https://sekibutsu.com/",
@@ -117,7 +129,11 @@
     "id": "oita-aqua-001",
     "name": "大分マリーンパレス水族館 うみたまご",
     "category": "レジャー",
-    "tags": ["大分市", "水族館", "家族旅行"],
+    "tags": [
+      "大分市",
+      "水族館",
+      "家族旅行"
+    ],
     "status": "pending",
     "last_updated": null,
     "source_url": "https://www.umitamago.jp/",
@@ -127,7 +143,11 @@
     "id": "beppu-sand-001",
     "name": "別府海浜砂湯",
     "category": "温泉",
-    "tags": ["別府", "砂蒸し風呂", "癒やし"],
+    "tags": [
+      "別府",
+      "砂蒸し風呂",
+      "癒やし"
+    ],
     "status": "pending",
     "last_updated": null,
     "source_url": "https://www.city.beppu.oita.jp/seikatu/gaikokujin/kankou/sandbath.html",
