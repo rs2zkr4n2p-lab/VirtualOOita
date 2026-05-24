@@ -26,7 +26,12 @@ def generate_markdown_from_json():
     print(f"【自動化拡張】{target_spot['name']} のMarkdownを生成中...")
 
     # 2. Gemini APIのクライアント初期化と生成（ここはさっきと同じ）
-    client = genai.Client()
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        raise ValueError("GEMINI_API_KEY が設定されていません！")
+
+    client = genai.Client(api_key=api_key)    
+
     system_instruction = (
         "あなたは『バーチャル大分』の案内人（大分のベテラン女将）です。"
         "大分県の観光・グルメ情報に精通しており、ユーザーには温かい大分弁で接してください。"
